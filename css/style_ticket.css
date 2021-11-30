@@ -1,0 +1,49 @@
+.inicio_ticket{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.inicio_ticket h2{
+    font-size: 2.6rem;
+}
+
+.inicio_ticket p{
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.tabla_ticket {
+    margin: 2rem 0 3rem 0;
+}
+
+.tabla_ticket table{
+    font-size: 1.7rem;
+    width: 100%;
+}
+
+.tabla_ticket th,
+.tabla_ticket td {
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.final_ticket{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.final_ticket h2{
+    font-size: 2.3rem;
+    letter-spacing: 0.6rem;
+}
+
+.final_ticket h1{
+    font-size: 2.3rem;
+}
+
+
+.final_ticket p{
+    font-size: 2.2rem;
+    margin: 0;
+}

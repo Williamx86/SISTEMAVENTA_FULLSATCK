@@ -1,0 +1,582 @@
+.raya_panel {
+    width: 100%;
+    object-fit: cover;
+}
+
+.panel_inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selectores_inicio {
+    display: flex;
+}
+
+.selectores_inicio a {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #000;
+    padding: 0.3rem 0rem;
+}
+
+.selectores_inicio a:focus {
+    background-color: #2C7FC2;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.selectores_inicio a:hover {
+    background-color: #2C7FC2;
+    color: #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.selectores_inicio a:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.selectores_inicio_activo{
+    background-color: #2C7FC2 !important;
+    color: #fff !important;
+    padding: 0.3rem 1rem !important;
+    border-radius: 15px !important;
+    border: none !important;
+}
+
+.btn_datos {
+    display: flex;
+    flex-direction: column;
+}
+
+.datos_promedio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+    background-color: #2C7FC2;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.datos_promedio img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.datos_promedio div {
+    text-align: right;
+}
+
+.botones_principales {
+    display: flex;
+    align-items: center;
+}
+
+.botones_principales a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C7FC2;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.botones_principales a:hover {
+    background-color: #256A99;
+}
+
+.botones_principales img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.contenedor_botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3.6rem;
+}
+
+.botones_principales span {
+    margin-top: 0.3rem;
+    white-space: pre-line;
+}
+
+.dt-button {
+    background: #E9F0F9 !important;
+    border: 2px solid #DDE3EF !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    background: #E9F0F9 !important;
+    border: 2px solid #DDE3EF !important;
+    width: 400px !important;
+}
+
+.paginate_button.current {
+    background: #E9F0F9 !important;
+    border: 2px solid #DDE3EF !important;
+}
+
+.botones_principales_menus {
+    display: flex;
+}
+
+.botones_principales_menus img {
+    width: 17px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 1.5rem;
+}
+
+.botones_principales_menus a {
+    background: #2C7FC2;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    padding: 1rem;
+    margin-right: 1.5rem;
+    border-radius: 7px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.botones_principales_menus a:hover {
+    background: #256A99;
+    transform: scale(0.95);
+}
+
+.botones_grandes_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones_grandes_menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #2C7FC2;
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: 0.2s;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.botones_grandes_menu a:hover {
+    background: #256A99;
+    transform: scale(0.95);
+}
+
+.botones_grandes_menu span {
+    margin-top: 1.5rem;
+}
+
+.botones_grandes_menu img {
+    width: 125px;
+    height: 125px;
+}
+
+.btn_relleno {
+    cursor: initial;
+    background: #fff !important;
+    box-shadow: none !important;
+}
+
+.acciones_botones {
+    display: flex;
+}
+
+.btn_accion_amarillo img,
+.btn_accion_rojo img,
+.btn_accion_azul img {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+
+.btn_accion_amarillo {
+    background: #CD9C2B;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn_accion_amarillo_mod img{
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+
+.btn_accion_amarillo_mod {
+    background: #CD9C2B;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.btn_accion_rojo {
+    background: #CF4427;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn_accion_azul {
+    background: #2C7FC2;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+}
+
+.btn_modificado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem !important;
+}
+
+.texto_agregar{
+    margin-left: 0.5rem;
+}
+
+.texto_agregar span {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+    text-align: left !important;
+}
+
+div.dt-buttons {
+    float: right !important;
+}
+
+.entrada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entrada_mod {
+    display: flex;
+    align-items: center;
+}
+
+.entrada div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.entrada_mod div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.9rem;
+}
+
+.input_modificado {
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    padding: 0.5rem 1rem;
+}
+
+.input_modificado_xl {
+    width: 600px;
+}
+
+.input_modificado_sm {
+    width: 300px;
+}
+
+.botones_formulario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones_formulario a img,
+.botones_formulario button img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.botones_formulario a,
+.botones_formulario button {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    padding: 1rem 0;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.botones_formulario a {
+    background: #CF4427;
+}
+
+.botones_formulario button {
+    background: #66BC46;
+}
+
+.botones_formulario a:hover,
+.botones_formulario button:hover {
+    transform: scale(0.98);
+}
+
+.modal-title {
+    margin-left: 3.5rem;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header .btn-close {
+    margin: -0.5rem 3.5rem -0.5rem auto !important;
+}
+
+.formulario_caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.campos_caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.input_datos_caja {
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    border-radius: 7px;
+    margin-left: 0.5rem;
+    height: 40px;
+    padding: 0 1rem;
+}
+
+.input_datos_caja_dos {
+    background: #fff;
+    border: 2px solid #DDE3EF;
+    border-radius: 7px;
+    margin-left: 0.5rem;
+    height: 40px;
+    padding: 0 1rem;
+}
+
+.input_datos_caja_tres {
+    background: #fff;
+    border: 2px solid #DDE3EF;
+    border-radius: 7px;
+    margin-left: 0.5rem;
+    width: 145px;
+    height: 40px;
+    padding: 0 1rem;
+}
+
+.total_final_caja {
+    display: flex;
+    align-items: end;
+}
+
+.opciones_cierre_caja {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0 3rem 0;
+}
+
+.opciones_cierre_caja_input {
+    display: flex;
+    align-items: center; 
+}
+
+.opciones_cierre_caja_input input {
+    background: #fff;
+    border: 2px solid #DDE3EF;
+    border-radius: 7px;
+    margin-left: 0.6rem;
+    height: 40px;
+    padding: 0 1rem;
+}
+
+.opciones_cierre_caja button{
+    background: #66BC46;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0.7rem 3.3rem;
+}
+
+.opciones_cierre_caja button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.accesos_usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.accesos_usuario input{
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.accesos_usuario select{
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.formulario_compras{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.entradas-formulario_compra{
+    display: flex;
+    flex-direction: column;
+}
+
+.entradas-formulario_compra input{
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    height: 40px;
+    width: 300px;
+    margin-right: 2.5rem;
+    padding: 0.5rem;
+}
+
+.entradas-formulario_compra select{
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    height: 40px;
+    width: 225px;
+    margin-right: 2.5rem;
+    padding: 0.5rem;
+}
+
+.tabla_compras{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla_compras th,
+.tabla_compras td
+{
+    padding: 0.5rem;
+}
+
+.tabla_compras thead{
+    border-bottom: 0.5px solid #000;
+}
+
+.tabla_compras tfoot{
+    border-top: 0.5px solid #000;
+}
+
+.btn_eliminar_tabla img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.btn_eliminar_tabla {
+    background: #CF4427;
+    border: none;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.tabla_compras input{
+    width: 50px;
+}
+
+.modificado_rojo a{
+    background: #CF4427 !important;
+}
+
+.cantidad_producto_mod input {
+    background: #E9F0F9;
+    border: 2px solid #DDE3EF;
+    width: 60px;
+}
+
+.btne_agregar{
+    border: none;
+    background: #66BC46;
+    padding: 0.4rem 0.4rem;
+}
+
+.contenedor_bte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btne_agregar img{
+    width: 10px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.btne_quitar{
+    border: none;
+    background: #CF4427;
+    padding: 0.4rem 0.4rem;
+}
+
+
+.btne_quitar img{
+    width: 10px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.info_desplegable{
+    display: block !important;
+}
+
+.info_desplegable img{
+    width: 15px;
+    object-fit: contain;
+    margin-right: 0.4rem;
+    margin-bottom: 0.1rem;
+}
